@@ -45,3 +45,15 @@ body{
     height: 300px;
 
 }
+/* Mobile Scrin  */
+@media screen and (max-width:768px) {
+    .container{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;}
+    .container .box {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+}
